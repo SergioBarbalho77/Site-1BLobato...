@@ -8,15 +8,15 @@ padding:0%;
 }
 
 .cabecalho{
-background-color: blueviolet;
+background-color: dimgrey;
 padding: 50px;
 }
 .corpo{
-background-color: mediumorchid;
+background-color: dimgray;
 padding: 25px;
 }
 .footer{
-background-color: darkorchid;
+background-color: dimgray;
 padding: 25px; ;
 }
 .boton{
@@ -24,7 +24,7 @@ position: fixed;
 top: 20px; ;
 left: 20px; ;
 padding: 10px 20px;
-background-color: indigo;
+background-color: white;
 color: black;
 text-decoration: none;
 border-color: black;
@@ -33,5 +33,5 @@ border-color: black;
 
 
 
-    
+
 }
