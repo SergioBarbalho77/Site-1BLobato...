@@ -25,4 +25,13 @@ top: 20px; ;
 left: 20px; ;
 padding: 10px 20px;
 background-color: indigo;
+color: black;
+text-decoration: none;
+border-color: black;
+}
+.boton:hover{
+
+
+
+    
 }
