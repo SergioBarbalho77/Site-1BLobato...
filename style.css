@@ -19,3 +19,10 @@ padding: 25px;
 background-color: darkorchid;
 padding: 25px; ;
 }
+.boton{
+position: fixed;
+top: 20px; ;
+left: 20px; ;
+padding: 10px 20px;
+background-color: indigo;
+}
