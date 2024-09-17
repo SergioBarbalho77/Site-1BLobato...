@@ -30,8 +30,8 @@ text-decoration: none;
 border-color: black;
 }
 .boton:hover{
-
-
-
-
+background:linear-gradient(to right, #5a5757, #4d4b4b   ,#5c5959);
+}
+.boton:active{
+    font-size: 15px;
 }
