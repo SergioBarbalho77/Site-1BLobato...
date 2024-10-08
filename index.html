@@ -23,31 +23,28 @@
 <div class="footer">
 <H3></H3>
 </div>
-{
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
-.game {
-    margin: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    width: 200px;
-    text-align: center;
-    background-color: #fff;}
-
-    .game img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-
 
 </body>
 </html>
+<body>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column; /* Alinha as imagens em coluna */
+        align-items: center; /* Centraliza as imagens */
+    }
+    .game {
+        margin: 10px 0; /* Margem em cima e embaixo */
+        text-align: center;
+    }
+    .game img {
+        max-width: 100%; /* Imagem responsiva */
+        height: auto;
+        border-radius: 5px; /* Bordas arredondadas */
+    }
+</body>
