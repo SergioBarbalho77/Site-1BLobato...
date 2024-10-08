@@ -35,16 +35,3 @@ background:linear-gradient(to right, #5a5757, #4d4b4b   ,#5c5959);
 .boton:active{
     font-size: 15px;
 }
-<div class="gallery">
-<div class="game">
-    <img src="link-da-imagem-do-jogo1.jpg" alt="Jogo 1">
-    <h3>Nome do Jogo 1</h3>
-</div>
-<div class="game">
-    <img src="link-da-imagem-do-jogo2.jpg" alt="Jogo 2">
-    <h3>Nome do Jogo 2</h3>
-</div>
-<div class="game">
-    <img src="link-da-imagem-do-jogo3.jpg" alt="Jogo 3">
-    <h3>Nome do Jogo 3</h3>
-</div>
