@@ -23,7 +23,43 @@
 <div class="footer">
 <H3></H3>
 
+<style>
+        .body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            max-width: 800px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Minha Grade de Imagens</h1>
+<div class="grid">
+    <img src="https://via.placeholder.com/150" alt="Imagem 1">
+    <img src="https://via.placeholder.com/150" alt="Imagem 2">
+    <img src="https://via.placeholder.com/150" alt="Imagem 3">
+    <img src="https://via.placeholder.com/150" alt="Imagem 4">
+    <img src="https://via.placeholder.com/150" alt="Imagem 5">
+    <img src="https://via.placeholder.com/150" alt="Imagem 6">
+</div>
 
 </body>
+    
+
 
 </html>
