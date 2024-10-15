@@ -23,43 +23,45 @@
 <div class="footer">
 <H3></H3>
 
-<style>
-        .body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 10px;
-            max-width: 800px;
-        }
-        .grid img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    </style>
-</head>
-<body>
-
-<h1>Minha Grade de Imagens</h1>
-<div class="grid">
-    <img src="https://via.placeholder.com/150" alt="Imagem 1">
-    <img src="https://via.placeholder.com/150" alt="Imagem 2">
-    <img src="https://via.placeholder.com/150" alt="Imagem 3">
-    <img src="https://via.placeholder.com/150" alt="Imagem 4">
-    <img src="https://via.placeholder.com/150" alt="Imagem 5">
-    <img src="https://via.placeholder.com/150" alt="Imagem 6">
-</div>
-
 </body>
+<style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+  </style>
+  
+  <table>
+    <tr>
+        <td><img src="image1.jpg" alt="Image 1"></td>
+        <td><img src="image2.jpg" alt="Image 2"></td>
+        <td><img src="image3.jpg" alt="Image 3"></td>
+      </tr>
+      <tr>
+        <td><img src="image4.jpg" alt="Image 4"></td>
+        <td><img src="image5.jpg" alt="Image 5"></td>
+        <td><img src="image6.jpg" alt="Image 6"></td>
+      </tr>
+  </table>
+
+
+
+  <video width="640" height="480" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video width="640" height="480" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    <iframe width="640" height="480" src="https://youtu.be/h0bYgqpB18E"
+  </video>
+
+  <body>
     
 
-
+    
 </html>
